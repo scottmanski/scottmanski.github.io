@@ -1566,5 +1566,16 @@ ul.w3-links li a i.fa:hover {
     #menuToggle {
          right: 7%;
     }
+.latex sub, .latex sup, .xetex sub {
+  font-size: 0.9em;
+  text-transform:uppercase;
+
+}
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: -0.2em;
+  margin-left: -0.26em;
+  margin-right: -0.05em;
+}
 }
 /* -- //Responsive code -- */
