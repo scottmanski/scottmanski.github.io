@@ -1119,6 +1119,8 @@ figure {
 }
 img {
   vertical-align: middle;
+  width:650px;
+  border:1px solid black;
 }
 .img-responsive,
 .thumbnail > img,
@@ -6582,3 +6584,12 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.mt-5, .my-5 {
+    margin-top: 3rem !important;
+}
+
+.col-md-3 {
+	padding-bottom: 25px;
+}
+

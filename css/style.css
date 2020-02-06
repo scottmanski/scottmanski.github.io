@@ -229,7 +229,7 @@ nav {
 }
 
 #menuToggle span {
-    background: #7690a1;
+    background: #7ecaf6;
     display: block;
     height: 10%;
     left: 20%;
@@ -240,7 +240,7 @@ nav {
 
 #menuToggle span:before,
 #menuToggle span:after {
-    background: #7690a1;
+    background: #7ecaf6;
     content: '';
     display: block;
     height: 100%;
@@ -1579,3 +1579,126 @@ ul.w3-links li a i.fa:hover {
 }
 }
 /* -- //Responsive code -- */
+
+/*-- experience --*/
+.exp-grids {
+    margin-top: 5em;
+}
+.exp-grids h4,.exp-grid1 h4 {
+    text-transform: capitalize;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.exp-grids h5,.exp-grid1 h5  {
+    font-size: 16px;
+    color: #aaa;
+    font-weight: 600;
+}
+.exp-grids p {
+    line-height: 28px;
+    letter-spacing: .5px;
+    font-size: 15px;
+    color: #FFF;
+    border-left: 3px solid #333;
+    padding-left: 3em;
+}
+.exp {
+    text-align: right;
+    padding-right: 3em;
+     background: #222;
+}
+.exp-grid1 p {
+    line-height: 28px;
+    letter-spacing: .5px;
+    font-size: 15px;
+    color: #FFF;
+    border-right: 3px solid #333;
+    padding-right: 3em;
+    text-align: right;
+}
+.exp1 {
+    padding-left: 3em;
+     background: #222;
+}
+/*-- //experience --*/
+
+/*--  services --*/
+.contact {
+    background: #191919;
+}
+.service-grids {
+    margin-top: 5em;
+}
+.w3-icon-grid1 h3 {
+    text-transform: capitalize;
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.w3-icon-grid1 {
+    position: relative;
+}
+.w3-icon-grid1 h3 i {
+      color: #000;
+      position: absolute;
+      opacity: .2;
+      font-size: 50px;
+}
+
+.w3-icon-grid1 p {
+    color: #666;
+    margin: 1.5em 0;
+    line-height: 28px;
+    letter-spacing: .5px;
+    font-size: 15px;
+}
+/*-- // services --*/
+
+h3.heading {
+    font-size: 45px;
+    text-align: center;
+    color: #1853a1;
+    font-weight: 600;
+    letter-spacing: 5px;
+	position: relative;
+}
+
+.pt-5,
+.py-5 {
+  padding-top: 3rem !important;
+}
+
+div#contact h3 {
+    color: #fff;
+}
+
+.pr-5,
+.px-5 {
+  padding-right: 3rem !important;
+}
+
+.pb-5,
+.py-5 {
+  padding-bottom: 3rem !important;
+}
+.pt-3,
+.py-3 {
+  padding-top: 1rem !important;
+}
+
+.pr-3,
+.px-3 {
+  padding-right: 1rem !important;
+}
+
+.pb-3,
+.py-3 {
+  padding-bottom: 1rem !important;
+}
+

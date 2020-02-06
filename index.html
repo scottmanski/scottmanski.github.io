@@ -52,7 +52,8 @@ Date: 03/21/2018
 							<a href="#about" class="scroll">About Me</a>
 							<a href="#skills" class="scroll">Skills</a>
 							<a href="#gallery" class="scroll">My Work</a>
-							<a href="#services" class="scroll">Services</a>
+							<a href="#services" class="scroll">Experience</a>
+							<a href="#methods" class="scroll">Methods</a>
 							<a href="#contact" class="scroll">Contact</a>
 						</nav>
 						<script>
@@ -83,7 +84,7 @@ Date: 03/21/2018
 			<div class="banner-text">
 				<div class="container">
 					<h1><a href="index.html">Scott Manski</a></h1>
-					<h2 class="w3ls-bnrtext">I am a <span> Data Scientist </span> </h2>
+					<h2 class="w3ls-bnrtext">I am a <span> Statistician </span> </h2>
 					<p class="w3ls-p">a skilled statistician with a passion for data</p>
 					<a href="#about" class="buy btn-wayra scroll">Explore my work</a>
 				</div>
@@ -97,11 +98,13 @@ Date: 03/21/2018
 			<h3 class="agileits-title">about me</h3>
 			<div class="agileits-about-grid">
 				<p>I am a Ph.D. candidate in the department of Statistics and Probability 
-				at Michigan State University.  I have a passion for data science, sports, 
-				and golf.  In my free time, I love to analyze sporting events with 
-				statistics.</p>
+				at Michigan State University.  For my research, I am utilizing word embedding 
+				algorithms with generalized additive models to develop new methods for extracting 
+				and analyzing paragraphs of text in the context of insurance risk. Outside of school, 
+				my favorite hobby is learning about Statistics through sports. As I hear about a new technique, 
+				I dig deeper by applying the method to answer a variety of sports related questions.</p>
 			</div>
-			<a href="#contact" class="wthree- about-link scroll">hire me</a>
+			<a href="#contact" class="wthree- about-link scroll">contact</a>
 		</div>
 	</div>
 	<!-- //about -->
@@ -112,6 +115,8 @@ Date: 03/21/2018
 			<div class="col-md-4 col-sm-4 col-xs-12 ab1 agileits-about-grid1">
 				<span class="fa fa-trophy" aria-hidden="true"></span>
 				<h4 class="agileinfo-head">awards</h4>
+				<h5>Teaching Award</h5>
+				<p>MSU Statistics and Probability Department Teaching Award (2018).</p>
 				<h5>Rose-Hulman Paper Finalist</h5>
 				<p>Rose-Hulman Undergraduate Math Conference Distinguished Paper Finalist (2015).</p>
 				<h5>Senior Leadership Award</h5>
@@ -122,20 +127,18 @@ Date: 03/21/2018
 				<h4 class="agileinfo-head">education</h4>
 				<h5>Ph.D. Statistics and Probability</h5>
 				<p>Michigan State University</p>
-				<p>Expected Graduation: Spring 2020</p>
+				<p>Expected Graduation: Summer 2020</p>
 				<h5>B.A. Mathematics/Chemistry</h5>
 				<p>Kalamazoo College</p>
-				<p>Graduated: June 2015</p>
+				<p>Graduated: June 2015 (Magna Cum Laude)</p>
 			</div>
 			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid3">
-				<span class="fa fa-shield  wthree-title-list" aria-hidden="true"></span>
-				<h4 class="agileinfo-head">expertise</h4>
-				<h5>Senior Interface Designer</h5>
-				<p>20XX-20XX</p>
-				<h5>Graphic Designer</h5>
-				<p>20XX-20XX</p>
-				<h5>Web Designer</h5>
-				<p>20XX-20XX</p>
+				<span class="fa fa-users  wthree-title-list" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">Online Presence</h4>
+				<h5>Active <a href="https://github.com/scottmanski">Github</a> / <a href="https://gitlab.msu.edu/manskisc"> Gitlab</a> User</h5>
+				<p>I practice version control with each project team</p>
+				<h5>Active <a href="https://stackexchange.com/users/13197800/smanski">StackExchange</a> User</h5>
+				<p>I answer questions to assist other statisticians and data scientists</p>
 			</div>
 			<div class="clearfix"></div>
 			</div>
@@ -149,7 +152,7 @@ Date: 03/21/2018
 				<h3 class="agileits-title">skills</h3>
 				<p>I have experience in each of the following languages or platforms.  I choose to use R
 				for the majority of my work.  In addition to what is listed, I am proficient in Microsoft
-				Office and LaTex.  I also have experience working with C++.</p>
+				Office and LaTex.  I also have experience working with Minitab and C++.</p>
 			</div>
 			<div class="col-md-7 skills-right">
 				<div class="vertical-skills  pull-right xs-center">
@@ -166,8 +169,6 @@ Date: 03/21/2018
 							<div class="skill" style="height:75%; background:#7bd0c1;"><span class="value">75%</span></div><span class="title">SQL</span></li>
 						<li>
 							<div class="skill" style="height:70%; background:#f2849e;"><span class="value">70%</span></div><span class="title">Java</span></li>
-						<li>
-							<div class="skill" style="height:65%; background:#7ecaf6;"><span class="value">65%</span></div><span class="title">Tableau</span></li>
 
 					</ul>
 				</div>
@@ -176,20 +177,54 @@ Date: 03/21/2018
 			<div class="clearfix"></div>
 		</div>
 	</div>
+	
+	<!-- My Work -->
 	<div class="w3ls-section agileits-gallery" id="gallery">
 		<div class="container">
-			<h3 class="agileits-title">MY work</h3>
+			<h3 class="agileits-title">My Work</h3>
 			<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
 				<ul id="myTab" class="nav nav-tabs" role="tablist">
 					<li role="presentation" class="active"><a href="#home-main" id="home-tab" role="tab" data-toggle="tab" aria-controls="home-main" aria-expanded="true">Show all</a></li>
+					<li role="presentation"><a href="#publications" role="tab" id="publications-tab" data-toggle="tab" aria-controls="learning">Publications</a></li>
 					<li role="presentation"><a href="#sports" role="tab" id="sports-tab" data-toggle="tab" aria-controls="learning">Sports</a></li>
+					<li role="presentation"><a href="#R" role="tab" id="R-tab" data-toggle="tab" aria-controls="learning">R</a></li>
 				</ul>
 				<div id="myTabContent" class="tab-content">
 					<div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
 						<div class="w3_tab_img">
 							<div class="col-sm-3 w3_tab_img_left">
 								<div class="demo">
-									<a class="cm-overlay" href="images/g1.jpg">
+									<a class="cm-overlay">
+										<figure class="imghvr-shutter-in-out-diag-2">
+										<a href="https://doi.org/10.1017/asb.2019.28" target="_blank">
+										<img src="images/astin.png" alt=" " class="img-responsive" />
+										</a>
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Actuarial Applications of Word Embedding Models</h5>
+									<p>Published in ASTIN Bulletin (2019)</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay">
+										<figure class="imghvr-shutter-in-out-diag-2">
+										<a href="https://doi.org/10.3390/risks7020043" target="_blank">
+										<img src="images/risk.png" alt=" " class="img-responsive" />
+										</a>
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Treatment Level and Store Level Analyses of Healthcare Data</h5>
+									<p>Published in Risks (2019)</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay">
 										<figure class="imghvr-shutter-in-out-diag-2">
 										<a href="Scott_Manski_SIP.pdf" target="_blank">
 										<img src="images/golf.jpg" alt=" " class="img-responsive" />
@@ -198,30 +233,78 @@ Date: 03/21/2018
 									</a>
 								</div>
 								<div class="agile-gallery-info">
-									<h5>Golf Project</h5>
-									<p>GLMMs for Putting Performance</p>
+									<h5>Generalized Linear Mixed Models for Putting Performance on the PGA TOUR</h5>
+									<p>Kalamazoo College Senior Thesis</p>
 								</div>
 							</div>
 							<div class="col-sm-3 w3_tab_img_left">
 								<div class="demo">
-									<a class="cm-overlay" href="images/g2.jpg">
 										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/sports2.jpg" alt=" " class="img-responsive" />
+										</figure>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>fetchingsportsdata</h5>
+									<p>An R package for gathering sports data. This project is ongoing and has not been published yet.</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay">
+										<figure class="imghvr-shutter-in-out-diag-2">
+										<a href="https://gitlab.msu.edu/STT200ShinyApps/intro-statistics-applets" target="_blank">
+										<img src="images/ConfidenceIntervalApp.png" alt=" " class="img-responsive" />
+										</a>
 										</figure>
 									</a>
 								</div>
 								<div class="agile-gallery-info">
-									<h5>Sports R Package</h5>
-									<p>R Package...</p>
+									<h5>Intro Statistics Applets</h5>
+									<p>A Collection of Open Source R Shiny Apps</p>
 								</div>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
 					</div>
-					<div role="tabpanel" class="tab-pane fade" id="Sports" aria-labelledby="sports-tab">
+					<div role="tabpanel" class="tab-pane fade" id="publications" aria-labelledby="publications-tab">
 						<div class="w3_tab_img">
 							<div class="col-sm-3 w3_tab_img_left">
 								<div class="demo">
-									<a class="cm-overlay" href="images/g1.jpg">
+									<a class="cm-overlay">
+										<figure class="imghvr-shutter-in-out-diag-2">
+										<a href="https://doi.org/10.1017/asb.2019.28" target="_blank">
+										<img src="images/astin.png" alt=" " class="img-responsive" />
+										</a>
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Actuarial Applications of Word Embedding Models</h5>
+									<p>Published in ASTIN Bulletin (2019)</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay">
+										<figure class="imghvr-shutter-in-out-diag-2">
+										<a href="https://doi.org/10.3390/risks7020043" target="_blank">
+										<img src="images/risk.png" alt=" " class="img-responsive" />
+										</a>
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Treatment Level and Store Level Analyses of Healthcare Data</h5>
+									<p>Published in Risks (2019)</p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="sports" aria-labelledby="sports-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay">
 										<figure class="imghvr-shutter-in-out-diag-2">
 										<a href="Scott_Manski_SIP.pdf" target="_blank">
 										<img src="images/golf.jpg" alt=" " class="img-responsive" />
@@ -230,20 +313,48 @@ Date: 03/21/2018
 									</a>
 								</div>
 								<div class="agile-gallery-info">
-									<h5>Golf Project</h5>
-									<p>GLMMs for Putting Performance</p>
+									<h5>Generalized Linear Mixed Models for Putting Performance on the PGA TOUR</h5>
+									<p>Kalamazoo College Senior Thesis</p>
 								</div>
 							</div>
 							<div class="col-sm-3 w3_tab_img_left">
 								<div class="demo">
-									<a class="cm-overlay" href="images/g2.jpg">
 										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/sports2.jpg" alt=" " class="img-responsive" />
+										</figure>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>fetchingsportsdata</h5>
+									<p>An R package for gathering sports data. This project is ongoing and has not been published yet.</p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="R" aria-labelledby="R-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/sports2.jpg" alt=" " class="img-responsive" />
+										</figure>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>fetchingsportsdata</h5>
+									<p>An R package for gathering sports data. This project is ongoing and has not been published yet.</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay">
+										<figure class="imghvr-shutter-in-out-diag-2">
+										<a href="https://gitlab.msu.edu/STT200ShinyApps/intro-statistics-applets" target="_blank">
+										<img src="images/ConfidenceIntervalApp.png" alt=" " class="img-responsive" />
+										</a>
 										</figure>
 									</a>
 								</div>
 								<div class="agile-gallery-info">
-									<h5>Sports R Package</h5>
-									<p>R Package...</p>
+									<h5>Intro Statistics Applets</h5>
+									<p>A Collection of Open Source R Shiny Apps</p>
 								</div>
 							</div>
 							<div class="clearfix"> </div>
@@ -261,8 +372,101 @@ Date: 03/21/2018
 			});
 		</script>
 	</div>
+	<!-- //My Work -->
+	
 	<!-- //menu -->
-	<!-- services -->
+	
+	<!-- experience -->
+<div class="w3ls-section services" id="services">
+	<div class="container">
+			<h3 class="agileits-title">Experience</h3>
+		<div class="row exp-grids">
+			<div class="col-md-3 exp wthree">
+				<h4>Graduate Teaching Assistant</h4>
+				<h5>Michigan State University</h5>
+				<h5>2015 - Present</h5>
+			</div>
+			<div class="col-md-9 mt-md-0 mt-4 wthree">
+				<p> Teaching Modeling for Business Analytics, a course for the MSBA degree (Each Summer 2016 – Present).
+					Teaching Intro to Data Science, an undergraduate course introducing data management, analysis, and visualization in R (Fall 2018 – Present).
+					Previously, I taught four sections (30 students per section) of recitation for STT-200 (an introductory course to statistics) each semester. I was responsible for teaching recitation once a week to each section, assisting students with homework, and holding office hours to answer additional questions.
+				</p>
+			</div>
+		</div>
+		<div class="row exp-grid1 mt-5 wthree">
+			<div class="col-md-9 mb-md-0 mb-4">
+				<p>I was responsible for providing statistical support for the site, with an emphasis on designing experiments, optimizing process parameters, and investigating the control of procedures. The position required strong communication skills and the ability to convey technical results to an audience with limited statistical experience.</p>
+			</div>
+			<div class="col-md-3 exp1 wthree">
+				<h4>Statistician (Intern)</h4>
+				<h5>Pfizer, Inc</h5>
+				<h5>Summer 2018</h5>
+			</div>
+		</div>
+		<div class="row exp-grids mt-5 wthree">
+			<div class="col-md-3 exp">
+				<h4>Teaching Assistant</h4>
+				<h5>Kalamazoo College</h5>
+				<h5>2012 - 2015</h5>
+
+			</div>
+			<div class="col-md-9 mt-md-0 mt-4 wthree">
+				<p>I provided assistance and tutoring for students enrolled in Chemistry or Mathematics courses.
+				   I graded for 5 core Math courses in the Mathematics major and assisted in class for 3 Chemistry courses. I also assisted in lab for 3 Chemistry courses.</p>
+			</div>
+		</div>
+		<div class="row exp-grid1 mt-5 wthree">
+			<div class="col-md-9 mb-md-0 mb-4">
+				<p>Worked on a variety of projects for members of the Pfizer Centre Source group. Projects included appropriately uploading files into their GDMS database for easy access, and verifying or providing hard copies of all files.</p>
+			</div>
+			<div class="col-md-3 exp1 wthree">
+				<h4>Regulatory Affairs Assistant (Intern)</h4>
+				<h5>Pfizer, Inc</h5>
+				<h5>Summer 2013</h5>
+			</div>
+		</div>
+	</div>
+	</div>
+<!-- //experience -->
+
+<!-- services -->
+<section class="services py-5" id="methods">
+	<div class="container py-3">
+		<h3 class="agileits-title">Methods</h3>
+		<div class="row service-grids">
+			<div class="col-lg-4 col-md-6 agile mt-sm-5 mt-4 w3-icon-grid1">
+				<h3><i class="fa fa-table" aria-hidden="true"></i>Cleaning</h3>
+								<p>In <font face="Consolas">R</font>, I clean data with the following packages: 
+				<font face="Consolas">dplyr</font>, 
+				<font face="Consolas">tidyr</font>, <font face="Consolas">tibble</font>, 
+				<font face="Consolas">stringr</font>, and <font face="Consolas">readr</font>.  
+				I also have experience manipulating data using SQL.</p>
+			</div>
+			<div class="col-lg-4 col-md-6 agile w3-icon-grid1">
+				<h3><i class="fa fa-code" aria-hidden="true"></i>Analysis</h3>
+				<p>I have experience working with regression, lasso, mixed models,
+						GAM, PCA, PLS, neural networks, graphical models, k-nn,
+						decision trees, and random forest.</p>
+			</div>
+			<div class="col-lg-4 col-md-6 agile mt-md-0 mt-sm-5 mt-4 w3-icon-grid1">
+				<h3><i class="fa fa-bar-chart" aria-hidden="true"></i>Visualization</h3>
+										<p>In <font face="Consolas">R</font>, I visualize data with the following packages: 
+				<font face="Consolas">ggplot2</font>, 
+				<font face="Consolas">leaflet</font>, <font face="Consolas">hexbin</font>, 
+				<font face="Consolas">base R</font>, and <font face="Consolas">RColorBrewer</font>.
+				I also have experience creating visualizations using plotly in <font face="Consolas">R</font> and Python.</p>	
+				</div>
+			<div class="col-lg-4 col-md-6 agile mt-sm-5 mt-4 w3-icon-grid1">
+				<h3><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Presentation</h3>
+								<p>I present results with <span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>,
+				Beamer, R Markdown, and R Sweave.  I also have experience creating packages in <font face="Consolas">R</font>.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //services -->
+
+	<!-- services
 	<div class="w3ls-section services" id="services">
 		<div class="container">
 			<h3 class="agileits-title text-center">Data Analysis</h3>
@@ -315,11 +519,12 @@ Date: 03/21/2018
 			</div>
 		</div>
 	</div>
-	<!-- //services -->
+	//services -->
+	
 	<!-- contact -->
-	<div class="contact-w3-agileits w3ls-section" id="contact">
+	<div class="w3ls-section services" id="contact" style="background: #7bd0c1;">
 		<div class="container">
-			<h3 class="agileits-title cont-w3l">contact me</h3>
+			<h3 class="agileits-title">Contact</h3>
 			<div class="contact-main-w3ls">
 				<div class="col-md-6  contact-left-w3ls">
 					<div class="mail contact-grid-agileinfo">
@@ -339,9 +544,9 @@ Date: 03/21/2018
 						</div>
 						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
 							<ul class="w3-links">
-								<li><a href="https://www.facebook.com/scott.manski"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="https://www.linkedin.com/in/scott-manski-6ba7519a/"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="https://stackoverflow.com/users/9531978/smanski?tab=profile"><i class="fa fa-stack-overflow"></i></a></li>
+								<li><a href="https://stackexchange.com/users/13197800/smanski"><i class="fa fa-stack-exchange"></i></a></li>
+								<li><a href="https://github.com/scottmanski"><i class="fa fa-github"></i></a></li>
 							</ul>
 						</div>
 						<div class="clearfix"></div>
